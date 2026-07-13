@@ -53,7 +53,7 @@ const scale = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
       type: "spring",
       stiffness: 160,
     }}
-   className="relative mt-10 md:mt-6 w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-full p-[5px] overflow-hidden"
+   className="relative mt-10 w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-full p-[5px] overflow-visible"
   >
 
     {/* Animated Border */}
