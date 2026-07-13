@@ -185,3 +185,10 @@ body {
     cursor: none;
   }
 }
+@media (pointer: fine) {
+  html,
+  body,
+  * {
+    cursor: none !important;
+  }
+}
