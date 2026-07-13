@@ -19,12 +19,12 @@ const y = useTransform(scrollYProgress, [0, 1], [-250, 0]);
 const opacity = useTransform(scrollYProgress, [0, 1], [0, 1]);
 const scale = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
   return (
-    <section className="c-space section-spacing" id="about">
+    <section className="c-space section-spacing pt-8 md:pt-0" id="about"> 
       <h2 className="text-heading">About Me</h2>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
+      <div className="grid grid-cols-1 gap-6 mt-16 md:mt-12 md:grid-cols-6 md:auto-rows-[18rem]">
         {/* Grid 1 */}
       
-<div className="relative flex flex-col items-center justify-end grid-default-color grid-1 overflow-hidden">
+<div className="relative flex flex-col items-center justify-center md:justify-end grid-default-color grid-1 overflow-hidden py-8" >
 
   {/* Background Glow */}
   <motion.div
@@ -53,7 +53,7 @@ const scale = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
       type: "spring",
       stiffness: 160,
     }}
-   className="relative mt-6 w-48 h-48 sm:w-60 sm:h-60 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-full p-[5px] overflow-hidden"
+   className="relative mt-10 md:mt-6 w-40 h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 lg:w-80 lg:h-80 xl:w-96 xl:h-96 rounded-full p-[5px] overflow-hidden"
   >
 
     {/* Animated Border */}
