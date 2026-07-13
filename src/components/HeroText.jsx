@@ -110,7 +110,7 @@ const HeroText = () => {
 
         <div>
           <motion.p
-            className="text-5xl font-black text-neutral-300"
+            className="text-5xl font-black bg-gradient-to-r from-violet-400 via-fuchsia-400 to-cyan-400 bg-clip-text text-transparent"
             variants={variants}
             initial="hidden"
             animate="visible"
@@ -126,13 +126,13 @@ const HeroText = () => {
             transition={{ delay: 1.5 }}
           >
             <FlipWords
-              words={words}
-              className="font-bold text-white text-7xl"
-            />
+  words={words}
+  className="font-bold text-7xl bg-gradient-to-r from-violet-400 via-fuchsia-400 to-cyan-400 bg-clip-text text-transparent"
+/>
           </motion.div>
 
           <motion.p
-            className="text-4xl font-black text-neutral-300"
+            className="text-4xl font-black bg-gradient-to-r from-violet-400 via-fuchsia-400 to-cyan-400 bg-clip-text text-transparent"
             variants={variants}
             initial="hidden"
             animate="visible"

@@ -174,3 +174,14 @@ body {
     background-position: 0% 50%;
   }
 }
+/* Hide default cursor on desktop */
+@media (pointer: fine) {
+  body {
+    cursor: none;
+  }
+
+  a,
+  button {
+    cursor: none;
+  }
+}
