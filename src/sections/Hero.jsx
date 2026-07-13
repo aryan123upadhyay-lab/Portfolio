@@ -45,4 +45,5 @@ function Rig() {
   });
 }
 
-export default Hero;
+export default Hero; 
+// trigger new deployment
