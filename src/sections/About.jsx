@@ -24,7 +24,7 @@ const scale = useTransform(scrollYProgress, [0, 1], [0.7, 1]);
       <div className="grid grid-cols-1 gap-6 mt-16 md:mt-12 md:grid-cols-6 md:auto-rows-[18rem]">
         {/* Grid 1 */}
       
-<div className="relative flex flex-col items-center justify-center md:justify-end grid-default-color grid-1 overflow-hidden py-8" >
+<div className="relative flex flex-col items-center justify-center md:justify-end grid-default-color grid-1 py-8">
 
   {/* Background Glow */}
   <motion.div
